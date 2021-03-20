@@ -1,0 +1,22 @@
+body{
+    width: 0 auto;
+    font-family: "Varela Round", sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(250, 245, 245);
+    padding: 16px;
+}
+ul li a{
+    text-decoration: none;
+    float: left;
+    color: rgb(16, 17, 17);
+    padding: 14px 16px;
+}
+ul a:hover{
+    background-color: rgb(247, 160, 103);
+    color: rgb(249, 253, 253);
+}
