@@ -59,20 +59,18 @@
     </div>
 
     <div class="container-fluid">
-        <div class="col-ms-12 col-md-12 col-sm-12 col-lg-12 justify-contain">
-            <div class="row">
-                <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
-                    <img src="../images/2.jpg" alt="">
-                </div>
-                <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
-                    <img src="../images/1.jpg" alt="">
-                </div>
-                <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
-                    <img src="../images/2.jpg" alt="">
-                </div>
-                <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
-                    <img src="../images/3.jpg" alt="">
-                </div>
+        <div class="row">
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
+                <img src="../images/2.jpg" alt="">
+            </div>
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
+                <img src="../images/1.jpg" alt="">
+            </div>
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
+                <img src="../images/2.jpg" alt="">
+            </div>
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
+                <img src="../images/3.jpg" alt="">
             </div>
         </div>
     </div>
@@ -163,6 +161,18 @@
 
     <div class="real-estate">
         <img src="../images/3.jpg">
+        <div class="text-real-estate tools-resources">
+            <h2 class="text-center">Real Estate Tools and Resources</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4">
+                    <div class="circle-Icons">
+                        <span>Person</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 @endsection
