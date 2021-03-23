@@ -66,7 +66,7 @@ li>a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 .image-food{
     flex: 25%;
@@ -74,7 +74,56 @@ li>a:hover {
     padding: 0 4px;
 }
 .image-food>img{
-    width: 455px !important;
+    width: 620px !important;
     min-height: 266.69px !important;
     border-radius: 5px;
+    padding: 10px 10px;
+}
+
+/*============== recent properties =============== */
+.text-center{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 4%;
+}
+.recent_img>img{
+    margin-top: 10%;
+    width: 425px !important;
+    min-height: 366.69px !important;
+    border-radius: 5px;
+}
+.text-header{
+    margin-top: 6%;
+}
+.list-items{
+    margin-top: 5%;
+}
+.text-para{
+    font-size: 20px !important;
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-header>a{
+    text-decoration: none;
+    color: #ffa200;
+    font-size: 30px;
+    font-weight: bold;
+}
+a>button{
+    padding: 20px;
+    width: 350px;
+    font-size: 25px;
+    background-color:  #ffa200;
+    border: none;
+    color: #fff;
+}
+
+/* ============ real estate ==============*/
+.real-estate{
+    margin-top: 70px;
+    min-height: 300px;
+    min-width: 100%;
 }

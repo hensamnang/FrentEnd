@@ -55,13 +55,14 @@
           <span class="glyphicon glyphicon-chevron-right"></span>
           <span class="sr-only">Next</span>
         </a>
+
     </div>
+
     <div class="container-fluid">
         <div class="col-ms-12 col-md-12 col-sm-12 col-lg-12 justify-contain">
             <div class="row">
                 <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
                     <img src="../images/2.jpg" alt="">
-                    <h3>With Swimming Pool</h3>
                 </div>
                 <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
                     <img src="../images/1.jpg" alt="">
@@ -76,5 +77,92 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Recent Properties</h1>
+            <hr class="line-horizontal">
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">AVA Nob Hill</a>
+                </div>
+                <h3 class="price">$1200/mon</h3>
+                <div class="text-para">
+                    <p>AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design
+                    that extends beyond your walls and throughout the entire community.</p>
+                </div>
+            </div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">Ashton San Francisco</a>
+                </div>
+                <h3 class="price">$1200/mon</h3>
+                <div class="text-para">
+                    <p>Ashton San Francisco offers luxury apartments, eco-friendly features, and remarkable on-site resident amenities.
+                    Enjoy premier services and access to our state-of-the-art fitness center, clubhouse, business center, and outdoor fire pit lounge.</p>
+                </div>
+            </div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">The Presidio Residences</a>
+                </div>
+                <h3 class="price">$1200/mon</h3>
+                <div class="text-para">
+                    <p>The Presidio Residences offer a unique opportunity to live in a national park setting and enjoy quiet neighborhoods,
+                    convenient location, beautiful open spaces, and outstanding recreational amenities.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">AVA Nob Hill</a>
+                </div>
+                <h3 class="price">$1200/mon</h3>
+                <div class="text-para">
+                    <p>AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design
+                    that extends beyond your walls and throughout the entire community.</p>
+                </div>
+            </div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">Ashton San Francisco</a>
+                </div>
+                <h3 class="price">$1200/mon</h3>
+                <div class="text-para">
+                    <p>Ashton San Francisco offers luxury apartments, eco-friendly features, and remarkable on-site resident amenities.
+                    Enjoy premier services and access to our state-of-the-art fitness center, clubhouse, business center, and outdoor fire pit lounge.</p>
+                </div>
+            </div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">The Presidio Residences</a>
+                </div>
+                <h3 class="price">$1200/mon</h3>
+                <div class="text-para">
+                    <p>The Presidio Residences offer a unique opportunity to live in a national park setting and enjoy quiet neighborhoods,
+                    convenient location, beautiful open spaces, and outstanding recreational amenities.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img"></div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
+                <a href=""><button>View All Properties</button></a>
+            </div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img"></div>
+        </div>
+    </div>
+
+    <div class="real-estate">
+        <img src="../images/3.jpg">
+    </div>
 
 @endsection
