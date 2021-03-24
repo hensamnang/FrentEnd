@@ -10,7 +10,7 @@
         <li><a href="">CONTACTS</a></li>
         <li><a href="">BLOCKS</a></li>
     </ul>
-
+    {{-- slid show --}}
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -59,7 +59,7 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row img_">
             <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 image-food">
                 <img src="../images/2.jpg" alt="">
             </div>
@@ -74,7 +74,7 @@
             </div>
         </div>
     </div>
-
+    {{-- Recent Properties --}}
     <div class="container">
         <div class="row">
             <h1 class="text-center">Recent Properties</h1>
@@ -151,25 +151,162 @@
         </div>
 
         <div class="row mt-5">
-            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img"></div>
-            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img">
-                <a href=""><button>View All Properties</button></a>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 view-all"></div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 view-all">
+                <a href=""><button class="view-properties">View All Properties</button></a>
             </div>
-            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 recent_img"></div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4 view-all"></div>
         </div>
     </div>
-
+    {{-- Real Estate Tools and Resources --}}
     <div class="real-estate">
         <img src="../images/3.jpg">
-        <div class="text-real-estate tools-resources">
-            <h2 class="text-center">Real Estate Tools and Resources</h2>
+        <div class="container">
+            <div class="text-real-estate tools-resources">
+                <h2 class="text-center">Real Estate Tools and Resources</h2>
+                <div class="row justify-realEstate">
+                    <div class="col-md-4 text-center">
+                        <button class="btn real-estate-bg">999</button>
+                        <h3 class="text reat-estate">TOP-RATED AGENTS</h3>
+                        <p class="text-light">Check up to 40% more houses for sale. See pictures of your new life at a new place. See maps, markets, etc.</p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <button class="btn real-estate-bg">999</button>
+                        <h3 class="text reat-estate">MORE LISTINGS</h3>
+                        <p class="text-light">All our real estate agents are professionals in your neighborhood, which are ready to help you find your new home.</p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <button class="btn real-estate-bg">999</button>
+                        <h3 class="text reat-estate">HOME ESTIMATES</h3>
+                        <p class="text-light">Wanna know how much your new home will cost? See estimates for any neighborhood and check prices for similar homes.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    {{-- Real Estate Agents --}}
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Real Estate Agents</h1>
+            <hr class="line-horizontal">
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 agents_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">Ashley Mason</a>
+                </div>
+                <div class="text-para">
+                    <a> 1-800-7650-986</a>
+                    <a> ashley@demolink.org</a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 agents_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">Russell Myers</a>
+                </div>
+                <div class="text-para">
+                    <a> 1-800-7650-986</a>
+                    <a> ashley@demolink.org</a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 agents_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">Shirley Vasquez</a>
+                </div>
+                <div class="text-para">
+                    <a> 1-800-7650-986</a>
+                    <a> ashley@demolink.org</a>
+                </div>
+            </div>
+            <div class="col-ms-3 col-md-3 col-sm-3 col-lg-3 agents_img">
+                <img src="../images/3.jpg" alt="">
+                <div class="text-header">
+                    <a href="">Terry Sandoval</a>
+                </div>
+                <div class="text-para">
+                    <a> 1-800-7650-986</a>
+                    <a> ashley@demolink.org</a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4"></div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4">
+                <a href=""><button class="view-agents">View All Agents</button></a>
+            </div>
+            <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4"></div>
+        </div>
+    </div>
+    {{-- Testimonials --}}
+    <div class="testimonials">
+        <div class="container">
+            <h3 class="text-center">Testimonials</h3>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 testimon">
+                    <div class="img-circle-left">
+                        <img src="../images/4.jpg" class="rounded-circle" width="80" height="80">
+                    </div>
+                    <div class="text-left quote">
+                        <p>
+                            <q>When you are not making an effort to be happy, then unexpectedly, mysteriously, happiness is there, born of purity, of a loveliness of being.</q>
+                        </p>
+                        <h4><b>- Naphat Nam</b></h4>
+                    </div>
+                </div>
+
+                <div class="col-md-4 testimon">
+                    <div class="img-circle-left">
+                        <img src="../images/5.jpg" class="rounded-circle" width="80" height="80">
+                    </div>
+                    <div class="text-left quote">
+                        <p>
+                            <q>Love will arise in your heart when you have no barrier between yourself and another, when you meet and observe people without judging them.</q>
+                        </p>
+                        <h4><b>- Socheat Lean</b></h4>
+                    </div>
+                </div>
+
+                <div class="col-md-4 testimon">
+                    <div class="img-circle-left">
+                        <img src="../images/6.jpeg" class="rounded-circle" width="80" height="80">
+                    </div>
+                    <div class="text-left quote">
+                        <p>
+                            <q>If there is to be any kind of social change, there must be a different kind of education so that children are not brought up to conform.</q>
+                        </p>
+                        <h4><b>- Minea Hen</b></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {{-- Get In Touch --}}
+    <div class="get-intouch">
+        <img src="../images/1.jpg">
         <div class="container">
             <div class="row">
-                <div class="col-ms-4 col-md-4 col-sm-4 col-lg-4">
-                    <div class="circle-Icons">
-                        <span>Person</span>
-                    </div>
+                <div class="col-md-8">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <label for="inputPassword2" class="sr-only">First Name:</label>
+                                    <input type="text" class="form-control" placeholder="first_name">
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <label for="inputPassword2" class="sr-only">First Name:</label>
+                                    <input type="text" class="form-control" placeholder="first_name">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
